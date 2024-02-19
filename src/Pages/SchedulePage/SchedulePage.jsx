@@ -193,13 +193,13 @@ function SchedulePage() {
       </div>
 
       <div className="w-full px-8 sm:px-16 py-16 sm:py-16 grid gap-10">
-        <div className="grid grid-cols-3 sm:grid-cols-7   gap-8">
+        <div className="grid gap-1 sm:grid-cols-7 sm:gap-8">
           {scheduleDetails.map((day, i) => {
             return (
               <button
                 key={i}
                 onClick={() => handleData(i)}
-                className={` sm:col-span-1 px-6 py-1 text-center rounded-2xl border text-sm font-medium 
+                className={`sm:grid-col-1 px-6 py-1  rounded-2xl border text-sm font-medium 
                         ${
                           day.isActive
                             ? `text-white bg-[#ff0335ff]`
