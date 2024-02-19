@@ -104,10 +104,10 @@ function Navbar() {
           </ul>
           <div className="flex items-center gap-5">
             <button className="py-2 px-5 font-medium bg-[#ff0335ff] hover:bg-transparent hover:border hover:border-white hover:text-white ease-in duration-150 ">
-              <Link to="/register">Register</Link>
+              <Link to="/register" onClick={toggleSidebar}>Register</Link>
             </button>
             <button className=" py-2 px-5 font-medium bg-white hover:bg-[#ff0335ff] hover:text-white text-[#ff0335ff] border border-[#ff0335ff] ease-in duration-150">
-              <Link to="/contact">Join Classes</Link>
+              <Link to="/contact" onClick={toggleSidebar}>Join Classes</Link>
             </button>
           </div>
         </div>

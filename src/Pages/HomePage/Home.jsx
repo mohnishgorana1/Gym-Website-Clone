@@ -8,7 +8,7 @@ import HeroCards from "../../Components/Hero/HeroCards"
 
 function Home() {
   return (
-    <div className="w-full flex flex-col relative">
+    <div className="flex flex-col relative">
       <Hero />
       <HeroCards />
       <AboutSection />
