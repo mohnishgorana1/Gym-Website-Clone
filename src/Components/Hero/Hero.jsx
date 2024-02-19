@@ -20,7 +20,7 @@ function Hero() {
             find you energy
           </p>
         </div>
-        <h1 className="ml-5 sm:ml-10 text-[28px] sm:text-[60px] font-bold text-start">
+        <h1 className="sm:ml-10 text-[28px] sm:text-[60px] font-bold text-start">
           MAKE YOUR BODY <br />
           <span className="font-thin">FIT & PERFECT</span>
         </h1>
