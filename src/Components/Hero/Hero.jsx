@@ -25,7 +25,7 @@ function Hero() {
           <span className="font-thin">FIT & PERFECT</span>
         </h1>
 
-        <button className="self-end sm:self-start sm:ml-10 py-1 px-5 sm:py-3 sm:px-9 font-medium text-lg bg-white hover:bg-transparent hover:text-white text-[#ff0335ff] border border-[#ff0335ff] ease-in duration-150">
+        <button className="self-start sm:ml-10 py-1 px-5 sm:py-3 sm:px-9 font-medium text-lg bg-white hover:bg-transparent hover:text-white text-[#ff0335ff] border border-[#ff0335ff] ease-in duration-150">
           <Link to="">Our Classes</Link>
         </button>
       </div>
