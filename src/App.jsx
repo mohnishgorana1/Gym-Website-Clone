@@ -7,7 +7,6 @@ import GalleryPage from "./Pages/GalleryPage/GalleryPage";
 import SchedulePage from "./Pages/SchedulePage/SchedulePage";
 import RegisterPage from "./Pages/AuthPage/RegisterPage";
 import LoginPage from "./Pages/AuthPage/LoginPage";
-import TestPage from "./Pages/TestPage";
 function App() {
   return (
     <div className="w-full">
@@ -20,7 +19,6 @@ function App() {
         <Route path="/schedule" element={<SchedulePage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/test" element={<TestPage />} />
       </Routes>
     </div>
   );
