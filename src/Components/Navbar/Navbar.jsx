@@ -33,6 +33,11 @@ function Navbar() {
       name: "Contact",
       link: "/contact",
     },
+    {
+      id: 6,
+      name: 'TEST',
+      link: '/test'
+    }
   ];
 
   const toggleSidebar = () => {
